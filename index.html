@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./estilo/estilo.css"> 
+    <title>Vivero</title>
+</head>
+<body>
+    <section class="conteiner">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #6cb67c;">
+            <div class="container-fluid">
+              <img src="./estilo/logo.png" class="logo"> 
+
+              <a class="navbar-brand" href="index.html">Vivero</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contactenos</a>
+                  </li>                
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./estilo/img1.jpg" class="d-block w-100" alt="producto" style="width: 300px; height: 400px;">
+              </div>
+              <div class="carousel-item">
+                <img src="./estilo/img2.jpg" class="d-block w-100" alt="producto" style="width: 300px; height: 400px;">
+              </div>
+              <div class="carousel-item">
+                <img src="./estilo/img3.jpg" class="d-block w-100" alt="producto" style="width: 300px; height: 400px; ">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="parrafo">
+          <p class="fs-1">Bienvenido al Vivero</p>
+          <p class="font-monospace">
+            Aquí podrá encontrar todos los productos para llenar su casa, oficina y su vida<br>
+            de saludables plantas, coloridas macetas y todos los accesorios necesarios para<br> 
+            el mantenmiento de su jardín.<br>
+          </p>
+        </div>
+    </section>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
